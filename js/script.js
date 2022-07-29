@@ -1,12 +1,12 @@
-var first_name = prompt("ismingiz nma?")
-var last_name = prompt("familyangiz nma?")
-var young = prompt("yoshingiz nechida?")
+var first_name = prompt("ismingiz nma?");
+var last_name = prompt("familyangiz nma?");
+var young = prompt("yoshingiz nechida?");
 var minyoung = 16
 
 if (young >= minyoung) {
-  alert("Marhamat kiring");
+  alert(first_name + " Marhamat kiring");
 }else {
-  alert("Katta bolganingizda keling")
+  alert(first_name + " Katta bolganingizda keling")
 }
 
 console.log(
